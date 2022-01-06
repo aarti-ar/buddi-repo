@@ -1,0 +1,4 @@
+com\buddi\loadproperty\LoadProperty.class
+com\buddi\basepage\BasePage.class
+com\buddi\pages\HomePage.class
+com\buddi\utility\Util.class

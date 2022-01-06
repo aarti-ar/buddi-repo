@@ -60,6 +60,18 @@
       <artifactId>log4j</artifactId>
       <version>1.2.17</version>
     </dependency>
+    <dependency>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-compiler-plugin</artifactId>
+      <version>3.8.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>6.9.8</version>
+      <scope>test</scope>
+    </dependency>
+    
   </dependencies>
 
   <build>
@@ -116,5 +128,6 @@
         </configuration>
       </plugin>
     </plugins>
-  </build>
+    </build>
+
 </project>
